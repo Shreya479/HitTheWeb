@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
     background-image: url('../img/bg/bg.jpg');
@@ -35,13 +35,13 @@ body {
 
 #searchText {
     width: 70%;
-    background-color: transparent;
+    background-color:transparent;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     border: none;
     outline: none;
-    color: white;
-    text-shadow: 0px 0px 5px black;
+    color: rgb(10, 10, 65);
+    text-shadow: 0px 0px 5px rgb(115, 114, 184);
     border-bottom: 1px solid white;
 }
 
@@ -51,7 +51,8 @@ body {
     width: 100%;
     overflow: hidden;
     font-weight: bold;
-    text-shadow: 0px 0px 5px black;
+    color: #333;
+    text-shadow: 0px 0px 5px rgb(211, 205, 235);
 }
 
 #date {

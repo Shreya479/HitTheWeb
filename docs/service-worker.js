@@ -26,16 +26,15 @@
                 "/register-service-worker.js",
                 "/service-worker.js",
                 "/js/service-worker.js",
-                "/img/bg/bg.jpg",
-                "/img/ico/duckduckgo.png",
+                "/img/bg/bg.jpeg",
+                
                 "/img/ico/ebay.png",
                 "/img/ico/facebook.png",
                 "/img/ico/google.png",
                 "/img/ico/linkedin.png",
-                "/img/ico/qwant.png",
+                
                 "/img/ico/reddit.png",
-                "/img/ico/soundcloud.png",
-                "/img/ico/steam.png",
+                
                 "/img/ico/torrentz.png",
                 "/img/ico/wikipedia.png",
                 "/img/ico/youtube.png",

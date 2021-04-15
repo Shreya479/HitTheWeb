@@ -13,16 +13,8 @@ var main = (function () {
             "name": "google",
             "paramName": "q",
         },
-        "dd": {
-            "action": "https://duckduckgo.com",
-            "name": "duckduckgo",
-            "paramName": "q"
-        },
-        "qw": {
-            "action": "https://www.qwant.com",
-            "name": "qwant",
-            "paramName": "q"
-        },
+      
+       
         "fb": {
             "action": "https://www.facebook.com/search/top",
             "name": "facebook",
@@ -48,16 +40,7 @@ var main = (function () {
             "name": "ebay",
             "paramName": "_nkw"
         },
-        "sc": {
-            "action": "https://soundcloud.com/search",
-            "name": "soundcloud",
-            "paramName": "q"
-        },
-        "st": {
-            "action": "http://store.steampowered.com/search",
-            "name": "steam",
-            "paramName": "term"
-        },
+      
         "tz": {
             "action": "https://torrentz2.me/search",
             "name": "torrentz",

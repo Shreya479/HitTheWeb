@@ -8,22 +8,14 @@ var main = (function () {
     var toastElement;
     var isFirstStart = !(localStorage.getItem("morningData") && JSON.parse(localStorage.getItem("morningData")).visited);
     var engines = {
-        "dd": {
-            "action": "https://duckduckgo.com",
-            "name": "duckduckgo",
-            "paramName": "q",
-        },
+       
         "gg": {
             "action": "https://www.google.pt/search",
             "name": "google",
             "paramName": "q",
             "track": true
         },
-        "qw": {
-            "action": "https://www.qwant.com",
-            "name": "qwant",
-            "paramName": "q"
-        },
+        
         "fb": {
             "action": "https://www.facebook.com/search/top",
             "name": "facebook",
@@ -52,16 +44,7 @@ var main = (function () {
             "paramName": "_nkw",
             "track": true
         },
-        "sc": {
-            "action": "https://soundcloud.com/search",
-            "name": "soundcloud",
-            "paramName": "q"
-        },
-        "st": {
-            "action": "http://store.steampowered.com/search",
-            "name": "steam",
-            "paramName": "term"
-        },
+       
         "tz": {
             "action": "https://torrentz2.me/search",
             "name": "torrentz",
